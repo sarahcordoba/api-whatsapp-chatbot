@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "outDir": "./dist",
+        "rootDir": "./SIC",
+        "declaration": true,
+        "declarationMap": true,
+        "moduleResolution": "node",
+        "importHelpers": true,
+        "target": "es2021",
+        "types": [
+            "node"
+        ],
+    },
+    "include" : ["SIC/**/*.ts"],
+    "exclude": ["**/*.spec.ts", "**/*.test.ts", "node_modules"]
+}
